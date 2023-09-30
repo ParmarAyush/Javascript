@@ -1,0 +1,18 @@
+Topic : For Each Loop
+
+- forEach() method call a function once for each element in array in order.
+	Syntax : array_name.forEach(callback(currentValue[,index[,array]])[,thisArg])
+			
+						current value is required 
+						index and array is optinal 
+
+[java script : Lesson 2 : Function Run Without Calling ]
+
+- when we are create function and then use at calling time () it run without calling. so avoid to use () 
+
+
+[java script : Lesson 3 : import export ]
+
+- don't forget to use type="module" keyword
+- use export{object name,obj2}; rather than put export keyword each and every object.
+ 

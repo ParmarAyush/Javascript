@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Your Writing Speed</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Roboto Mono', monospace;
+    }
+
+    body {
+        background-color: #3A98B9;
+    }
+
+    section {
+        margin: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section>* {
+        margin: 20px;
+    }
+
+    h1 {
+        font-size: 50px;
+        color: #E8D5C4;
+    }
+
+    #text {
+        color: #000;
+        font-weight: 900;
+        font-size: 20px;
+    }
+
+    textarea {
+        height: 250px;
+        width: 950px;
+        background-color: #EEEEEE;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        color: #000;
+        font-weight: 900;
+        font-size: 20px;
+    }
+
+    input[type=button] {
+        height: 40px;
+        width: 120px;
+        font-size: 21px;
+        background-color: #E8D5C4;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        font-weight: 900;
+        letter-spacing: 1px;
+    }
+</style>
+
+<body>
+    <section>
+        <h1>Write 📝 Following Word 🔡 in Box </h1>
+        <p id="text">Clicked On Start Button To Appear Writing Text</p>
+        <textarea id="Write" cols="117" rows="13"></textarea>
+        <input type="button" value="Start" id="btn">
+    </section>
+    <script src="writingSpeed.js"></script>
+</body>
+</html>
